@@ -37,6 +37,8 @@ notice that "src" is a way to direct the path to the file - the obj and mtl file
                 <a-asset-item id="buildings-obj" src="assets/buildings.obj"></a-asset-item>
                 <a-asset-item id="buildings-mtl" src="assets/buildings.mtl"></a-asset-item>
 
+                <a-asset-item id="trees-obj" src="assets/trees.obj"></a-asset-item>
+
                 <a-asset-item id="sidewalk-obj" src="assets/sidewalk.obj"></a-asset-item>
                 <a-asset-item id="sidewalk-mtl" src="assets/sidewalk.mtl"></a-asset-item>
                 
@@ -93,6 +95,11 @@ animation="property: material.opacity; from: 0.35; to 0.95; loop: true; dir: alt
                           rotation = "-90 90 0"></a-entity>
 
                 <a-entity obj-model="obj: #sidewalk-obj; mtl: #sidewalk-obj"
+                          scale=".015 .015 .015"
+                          position= "0.1 0 -0.4"   
+                          rotation = "-90 90 0"></a-entity>
+
+                <a-entity obj-model="obj: #trees-obj; mtl: #trees-obj"
                           scale=".015 .015 .015"
                           position= "0.1 0 -0.4"   
                           rotation = "-90 90 0"></a-entity>
